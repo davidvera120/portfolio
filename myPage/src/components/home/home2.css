@@ -1,0 +1,329 @@
+
+   *{
+   
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --font-family-sans-serif: "Roboto", sans-serif;
+   }
+  
+  .title-home{
+    text-align:center;
+    margin: 0 auto; 
+  }
+  .title-home1{
+    width:80%;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    margin: 0 auto; 
+  }
+  
+  .fondoGradiente{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,111,113,1) 57%, rgba(1,208,212,1) 100%);
+    background-size: 200% 200%;
+    animation: movimiento 6s linear infinite alternate;
+    color:#c1c1c1;
+    
+  }
+
+  @keyframes movimiento {
+    from{
+      background-position: 0 0;
+    }
+    to{
+      background-position: 100% 90%;
+    }
+  }
+
+  .general3{
+    margin-top:250px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+  }
+  .general2{
+ margin:0 auto;
+  }
+
+.navbar1 {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    z-index: 99;
+   
+}
+
+.navbar2{
+bottom: inherit;
+left: 0;
+position: fixed;
+top: 0;
+}
+
+.mouse-btn {
+    margin: 10px auto;
+    width: 40px;
+    height: 80px;
+    border: 3px solid rgba(122, 122, 124, 0.918);
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .mouse-scroll {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
+    border-radius: 50%;
+    margin: auto;
+    -webkit-animation: scrolling13 1s linear infinite;
+            animation: scrolling13 1s linear infinite;
+  }
+  
+  @-webkit-keyframes scrolling13 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px);
+    }
+  }
+  
+  @keyframes scrolling13 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px);
+    }
+  }
+
+
+
+
+
+
+
+
+  .scrolldown {
+    --color: white;
+    --sizeX: 30px;
+    --sizeY: 50px;
+  position: relative;
+    width: var(--sizeX);
+    height: var(--sizeY);
+   
+    border: calc(var(--sizeX) / 10) solid var(--color);
+    border-radius: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 16px;
+    cursor: pointer;
+    
+  }
+  
+  .scrolldown::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: var(--color);
+    border-radius: 100%;
+    -webkit-animation: scrolldown-anim 2s infinite;
+            animation: scrolldown-anim 2s infinite;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px -5px 3px 1px #2a547066;
+            box-shadow: 0px -5px 3px 1px #2a547066;
+  }
+  
+  @-webkit-keyframes scrolldown-anim {
+    0% {
+      opacity: 0;
+      height: 6px;
+    }
+  
+    40% {
+      opacity: 1;
+      height: 10px;
+    }
+  
+    80% {
+      -webkit-transform: translate(0, 20px);
+              transform: translate(0, 20px);
+      height: 10px;
+      opacity: 0;
+    }
+  
+    100% {
+      height: 3px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes scrolldown-anim {
+    0% {
+      opacity: 0;
+      height: 6px;
+    }
+  
+    40% {
+      opacity: 1;
+      height: 10px;
+    }
+  
+    80% {
+      -webkit-transform: translate(0, 20px);
+              transform: translate(0, 20px);
+      height: 10px;
+      opacity: 0;
+    }
+  
+    100% {
+      height: 3px;
+      opacity: 0;
+    }
+  }
+  
+  .chevrons {
+    padding: 6px 0 0 0;
+    margin-left: -3px;
+    margin-top: 48px;
+    width: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .chevrondown {
+    margin-top: -6px;
+    position: relative;
+    border: solid whitesmoke;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .chevrondown:nth-child(odd) {
+    -webkit-animation: pulse54012 500ms ease infinite alternate;
+            animation: pulse54012 500ms ease infinite alternate;
+  }
+  
+  .chevrondown:nth-child(even) {
+    -webkit-animation: pulse54012 500ms ease infinite alternate 250ms;
+            animation: pulse54012 500ms ease infinite alternate 250ms;
+  }
+  
+  @-webkit-keyframes pulse54012 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes pulse54012 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 0.5;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+.typing-demo {
+  width: 16ch;
+  animation: typing1 7s steps(22) infinite alternate, blink .55s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@keyframes typing1 {
+  from {
+    width: 0;
+  }
+  
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.text::before{
+content: attr(data-text);
+position:absolute;
+top:0;
+left:0;
+width:0;
+height:100%;
+color:#c1c1c1;
+-webkit-text-stroke: 0vw #c1c1c1;
+border-right:2px solid #c1c1c1;
+overflow:hidden;
+animation: animate 3s steps(18) step-end linear infinite;
+}
+@keyframes animate{
+0%, 10%, 30%, 100%{
+  width:0%;
+}
+
+70%, 90%{
+  width:100%;
+}
+}
+
+
+

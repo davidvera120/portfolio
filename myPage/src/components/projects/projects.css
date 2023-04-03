@@ -1,0 +1,136 @@
+.img-slider{
+    height:300px;
+    width:350px;
+    border-radius:5px;
+}
+.icons-buttons{
+    margin-top:-5px;
+}
+.buttons-a{
+    text-decoration:none;
+    font-size:15px; 
+    align-items:center;
+    justify-content:center;
+    color:#252525; 
+    border-radius: 5px;
+    background: #e8e8e8;
+    padding:8px;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 3px 3px 8px #c5c5c5,
+                -3px -3px 8px #ffffff;
+}
+
+.slider__contenedor {
+    height:320px;
+    width: 480px;
+    border-radius: 15px;
+    /* border: 3px solid bl
+    ack; */
+     display: flex;
+      overflow: hidden;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      text-align: center;
+      justify-content: center;
+     align-items:center;
+    }
+    
+    .slider {
+      height: 320px;
+      width: 480px;
+      border: 3px solid black;
+      text-align: center;
+      align-items:center; 
+      justify-content: center;
+    }
+    .slider__btn {
+    position: absolute;
+      width: 40px;
+      height: 40px;
+      border: none;
+      background:none;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: monospace;
+      text-align: center;
+      top: -100px;
+      cursor: pointer;
+      transform: translateY(262px);
+      color:black;
+    }
+    
+    .slider__btn--right {
+      right: 0px;
+    } 
+    
+    .slider__btn--left {
+      left: 0px;
+    } 
+    
+    .slider__section {
+    width: 100%;
+    text-align: center;
+    margin-bottom:10px;
+    margin-top:10px;
+    }
+
+@media (max-width: 500px) {
+    .img-slider{
+        height:260px;
+        width:300px;
+    }
+
+    .slider__contenedor {
+        height:280px;
+        width: 480px;
+        border-radius: 15px;
+        /* border: 3px solid black; */
+         display: flex;
+          overflow: hidden;
+          margin-bottom: 10px;
+          margin-top: 0px;
+          text-align: center;
+          justify-content: center;
+         align-items:center;
+        }
+        
+        .slider {
+          height: 280px;
+          width: 300px;
+          border: 3px solid black;
+          text-align: center;
+          align-items:center; 
+          justify-content: center;
+        }
+        .slider__btn {
+        position: absolute;
+          width: 40px;
+          height: 40px;
+          border: none;
+          background:none;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: monospace;
+          text-align: center;
+          top: -100px;
+          cursor: pointer;
+          transform: translateY(262px);
+          color:black;
+        }
+        
+        .slider__btn--right {
+          right: 0px;
+        } 
+        
+        .slider__btn--left {
+          left: 0px;
+        } 
+        
+        .slider__section {
+        width: 100%;
+        text-align: center;
+        margin-bottom:10px;
+        margin-top:10px;
+        }
+}

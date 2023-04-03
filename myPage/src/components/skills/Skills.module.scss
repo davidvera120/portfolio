@@ -1,0 +1,177 @@
+.Container{
+
+width:90%;
+background-color:#ddd; 
+border-bottom-right-radius:20px;
+border-top-right-radius: 20px ; 
+border:solid 1px rgba(1,208,212,1);
+margin:0;
+text-align:right;
+margin-top:-5px;
+height:20px;
+
+}
+.container1{
+    width:90%;
+    background-color:#ddd; 
+    border-bottom-right-radius:20px;
+    border-top-right-radius: 20px ; 
+    border:solid 1px rgba(1,208,212,1);
+    margin-left:-7px;
+    text-align:right;
+    margin-top:-5px;
+    height:20px;
+    
+    }
+
+   
+
+        
+
+
+.skills1{
+    text-align:right;
+
+color:white;
+font-weight: bold;
+background-color: #ababab;
+animation:fillhtml 2s forwards;
+  height:18px;  
+  font-size:10px;
+}
+
+
+.skills2{
+    text-align:right;
+    margin:0;
+    color:white;
+    font-weight: bold;
+    background-color: #ababab;
+    animation:fillcss 2s forwards;
+      height:18px;  
+      font-size:10px;
+    }
+
+    .skills3{
+        text-align:right;
+        margin:0;
+        color:white;
+        font-weight: bold;
+        background-color: #ababab;
+        
+        animation:filljs 2s forwards;
+          height:18px;  
+          font-size:10px;
+        }
+
+        .skills4{
+            text-align:right;
+            margin:0;
+            color:white;
+            font-weight: bold;
+            background-color: #ababab;
+            
+            animation:fillboo 2s forwards;
+              height:18px;  
+              font-size:10px;
+            }
+            .skills5{
+                text-align:right;
+                margin:0;
+                color:white;
+                font-weight: bold;
+                background-color: #ababab;
+                
+                animation:filltail 2s forwards;
+                  height:18px;  
+                  font-size:10px;
+                }
+                .skills6{
+                    text-align:right;
+                    margin:0;
+                    color:white;
+                    font-weight: bold;
+                    background-color: #ababab;
+                    
+                    animation:fillrx 2s forwards;
+                      height:18px;  
+                      font-size:10px;
+                    }
+
+                    .skills7{
+                        text-align:right;
+                        margin:0;
+                        color:white;
+                        font-weight: bold;
+                        background-color: #ababab;
+                        
+                        animation:fillre 2s forwards;
+                          height:18px;  
+                          font-size:10px;
+                        }
+
+                        .skills8{
+                            text-align:right;
+                            margin:0;
+                            color:white;
+                            font-weight: bold;
+                            background-color: #ababab;
+                            
+                            animation:fillgit 2s forwards;
+                              height:18px;  
+                              font-size:10px;
+                            }
+
+                            .skills9{
+                                text-align:right;
+                                margin:0;
+                                color:white;
+                                font-weight: bold;
+                                background-color: #ababab;
+                                
+                                animation:fillfb 2s forwards;
+                                  height:18px;  
+                                  font-size:10px;
+                                }
+@keyframes fillhtml{
+    0%{width:0;}
+    100%{width:85%;}
+}
+@keyframes fillcss{
+    0%{width:0;}
+    100%{width:85%;}
+}
+@keyframes filljs{
+    0%{width:0;}
+    100%{width:80%;}
+}
+@keyframes fillboo{
+    0%{width:0;}
+    100%{width:90%;}
+}
+@keyframes filltail{
+    0%{width:0;}
+    100%{width:70%;}
+}
+@keyframes fillrx{
+    0%{width:0;}
+    100%{width:90%;}
+}
+@keyframes fillre{
+    0%{width:0;}
+    100%{width:80%;}
+}
+@keyframes fillgit{
+    0%{width:0;}
+    100%{width:90%;}
+}
+
+@keyframes fillfb{
+    0%{width:0;}
+    100%{width:75%;}
+}
+
+.back{
+    margin-left:5px;
+    color:white;
+}

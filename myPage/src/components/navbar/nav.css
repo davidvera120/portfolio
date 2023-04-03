@@ -1,0 +1,46 @@
+.navbar-custom{
+   height: 20px;
+   margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.navbar-custom .navbar-nav-custom{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav1{
+    margin:0 auto;
+    width:85%;
+    height:40px;
+    margin-bottom:20px;
+    background: rgba(255, 255, 255, 0.612);
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+  } 
+
+.icons1{
+    font-size:25px;
+    color:#252525;
+    margin-top:-8px;
+}
+.icons1:hover{
+    color:rgba(1,208,212,1);
+}
+
+.icons1:active{
+    color:rgba(1,208,212,1);
+}
+
+
